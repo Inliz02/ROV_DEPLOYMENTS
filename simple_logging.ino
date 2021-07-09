@@ -35,11 +35,12 @@
 // ==========================================================================
 /** Start [logging_options] */
 // The name of this program file
+const char *libraryVersion = "0.21.2";
 const char* sketchName = "simple_logging.ino";
 // Logger ID, also becomes the prefix for the name of the data file on SD card
-const char* LoggerID = "XXXXX";
+const char* LoggerID = "ROV_Mayfly_20645";
 // How frequently (in minutes) to log data
-const uint8_t loggingInterval = 5;
+const uint8_t loggingInterval = 1;
 // Your logger's timezone.
 const int8_t timeZone = -5;  // Eastern Standard Time
 // NOTE:  Daylight savings time will not be applied!  Please use standard time!
